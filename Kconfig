@@ -9,6 +9,14 @@ menu "Toolchain configuration"
 	config TOOLCHAIN_PREFIX
 		string "toolchain prefix"
 		default ""
+	
+	config SYSTEM_PROCESSOR
+		string "target processor architecture"
+		default "X86_64"
+
+	config SYSTEM_NAME
+		string "target system name"
+		default ""
 endmenu
 
 menu "SDK Components Configuration"
